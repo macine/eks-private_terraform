@@ -59,6 +59,11 @@ terraform apply
 aws eks --region us-east-1 update-kubeconfig --name eks-private
 ```
 
+9. test it
+```shell
+kubectl get svc
+```
+
 ## Help and Feedback
 For help, please consider send me an email to macine(at)gmail.com
 
