@@ -66,4 +66,4 @@ For help, please consider send me an email to macine(at)gmail.com
 PLease feel free to contribute and make pull requests. 
 
 ## License
-
+GNU GENERAL PUBLIC LICENSE
