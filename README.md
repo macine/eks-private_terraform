@@ -1,5 +1,7 @@
-# eks-private_terraform
-
+# EKS private cluser implemantacion on AWS using terraform
+----
+## Overview
+----
 Terraform scripts for use in AWS. It creates an new VPC usign [AWS-VPC-Module](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/), 
 into 3 AZ (automatically obtained), and 3 kinds of subnets: public, private and intra. Also creates an Internet Gateway and a Single Nat Gateway as described at 
 [NAT GW Scenarios](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/2.48.0#nat-gateway-scenarios).
