@@ -1,6 +1,6 @@
 module "vpc" {
     source = "terraform-aws-modules/vpc/aws"
-
+    
     name = "vpc-macine"
     cidr = "69.0.0.0/16"
 
@@ -18,7 +18,7 @@ module "vpc" {
     one_nat_gateway_per_az = false
 
     tags = {
-        Terraform = "true"
+        Terraform = true
         Environment = "${local.environment}"
         "kubernetes.io/cluster/${local.cluster_name}" = "shared"
     }

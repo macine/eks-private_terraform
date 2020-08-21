@@ -9,6 +9,10 @@ data "aws_security_group" "default" {
   vpc_id = module.vpc.vpc_id
 }
 
+data "aws_vpc" "vpc_actual" {
+  default = true
+}
+
 locals {
   cluster_name = "eks-private"
   environment = "desarrollo"
