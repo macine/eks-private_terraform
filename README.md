@@ -64,6 +64,11 @@ aws eks --region us-east-1 update-kubeconfig --name eks-private
 kubectl get svc
 ```
 
+10. destroy the Lab
+```shell
+terraform destroy
+```
+
 ## Help and Feedback
 For help, please consider send me an email to macine(at)gmail.com
 
