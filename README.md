@@ -1,4 +1,4 @@
-# EKS private cluser implemantacion on AWS using terraform
+# EKS private cluster implemantacion on AWS using terraform
 
 ## Overview
 Terraform scripts for use in AWS. It creates an new VPC usign [AWS-VPC-Module](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/), 
