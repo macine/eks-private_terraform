@@ -9,8 +9,13 @@ data "aws_security_group" "default" {
   vpc_id = module.vpc.vpc_id
 }
 
+variable "current_vpc_id" {
+  description = "id of current vpc"
+}
+
+
 data "aws_vpc" "vpc_actual" {
-  default = true
+  id = var.current_vpc_id
 }
 
 locals {
