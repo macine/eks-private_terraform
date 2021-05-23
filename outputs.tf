@@ -22,10 +22,10 @@ output "intra_subnets" {
 }
 
 # NAT gateways
-output "nat_public_ips" {
-  description = "List of public Elastic IPs created for AWS NAT Gateway"
-  value       = module.vpc.nat_public_ips
-}
+# output "nat_public_ips" {
+#   description = "List of public Elastic IPs created for AWS NAT Gateway"
+#   value       = module.vpc.nat_public_ips
+# }
 
 # Cluster Id
 output "eks_cluster_id" {
