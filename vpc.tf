@@ -14,11 +14,10 @@ module "vpc" {
     public_subnet_suffix = "sn-public"
 
     enable_nat_gateway = false
-    #single_nat_gateway = false
-    #one_nat_gateway_per_az = false
     enable_dns_hostnames = true
     enable_dns_support   = true
     create_igw = false
+    
     tags = {
         Terraform = true
         Environment = "${local.environment}"
