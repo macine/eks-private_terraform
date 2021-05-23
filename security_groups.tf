@@ -42,7 +42,7 @@ resource "aws_security_group" "allow_port_443" {
 
 resource "aws_security_group_rule" "cluster_ingress_from_vpc_actual" {
 	cidr_blocks = [ data.aws_vpc.vpc_actual.cidr_block ]
-	from_port = 433
+	from_port = 443
 	to_port = 443
 	protocol = "tcp"
 	type = "ingress"
